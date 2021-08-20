@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(12, 12, 46);
+}
+
+.song-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 5px;
+}
+
+.title {
+    color: white;
+    font-size: 19px;
+    font-family: ubuntu;
+    height: 50px;
+    text-align: center;
+}
+
+.progress-container {
+    height: 5px !important;
+    background-color: white;
+    border-radius: .25rem;
+}
+
+.progress {
+    height: 5px !important;
+    background-color: black !important;
+}
+
+.song {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.btns i {
+    padding: 0 10px;
+    color: white;
+}
